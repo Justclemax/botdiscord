@@ -14,7 +14,7 @@ Ce projet implémente un bot Discord en utilisant le site Decord. Suivez les ét
      git clone https://github.com/Justclemax/botdiscord.git
      ```
       ``` bash
-        cd botdiscord
+        cd botdiscord 
      ```
     
    - Ouvrez votre terminal et exécutez la commande suivante pour créer un environnement virtuel nommé "env":
