@@ -1,6 +1,7 @@
 import os
 import discord
 from dotenv import load_dotenv
+import random
 
 load_dotenv()
 intents = discord.Intents.default()
