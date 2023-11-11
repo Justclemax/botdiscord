@@ -6,10 +6,18 @@ Ce projet implémente un bot Discord en utilisant le site Decord. Suivez les ét
 ### Étapes d'installation
 
 1. **Créer un compte Discord sur le site Decord:**
-   - Allez sur [Decord](https://decord.com) et créez un compte si vous n'en avez pas déjà un.
+   - Allez sur [Decord](https://descord.com) et créez un compte si vous n'en avez pas déjà un.
 
-2. **Installer l'environnement virtuel:**
-   - Ouvrez votre terminal et exécutez la commande suivante pour créer un environnement virtuel nommé "botenv":
+2. **Cloner le projet et Installer l'environnement virtuel:**
+     - Ouvrez votre terminal et exécutez la commande suivante :
+     ``` bash
+     git clone https://github.com/Justclemax/botdiscord.git
+     ```
+      ``` bash
+        cd botdiscord
+     ```
+    
+   - Ouvrez votre terminal et exécutez la commande suivante pour créer un environnement virtuel nommé "env":
 
      ```bash
      python -m venv env
