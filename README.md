@@ -20,6 +20,7 @@ Ce projet implémente un bot Discord en utilisant la bibliothèque discord.py. S
      python -m venv env
      ```
 
+
 3. **Activer l'environnement virtuel :**
    - Sur Windows, exécutez la commande :
      ```bash
@@ -41,10 +42,12 @@ Ce projet implémente un bot Discord en utilisant la bibliothèque discord.py. S
 
 Pour une démonstration visuelle de la création d'un bot Discord, vous pouvez suivre cette vidéo :
 
-<video width="400" height="400" controls>
-    <source src="/Users/clementkm/Downloads/ips-61620253-F219-4001-A847-525764630FE1.mp4" type="video/mp4">
+<video width="400" height="400" controls
+    src="https://www.mediafire.com/file/tdphugl1sg2mb1c/ips-61620253-F219-4001-A847-525764630FE1.mp4/file"> 
     Votre navigateur ne prend pas en charge la balise vidéo.
 </video>
+
+
 
 Assurez-vous de consulter la vidéo pour des instructions détaillées sur le processus de création du bot Discord.
 
