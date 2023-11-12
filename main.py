@@ -1,7 +1,7 @@
 import os
 import discord
 from dotenv import load_dotenv
-import random
+
 
 load_dotenv()
 intents = discord.Intents.default()
@@ -15,8 +15,6 @@ client = discord.Client(intents=intents)
 
 
 
+if __name__ =="__main__":
 
-
-
-
-client.run(os.getenv("TOKEN"))
+    client.run(os.getenv("TOKEN"))

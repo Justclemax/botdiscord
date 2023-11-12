@@ -1,12 +1,12 @@
 # Botdiscord
 ## À propos de ce projet
 
-Ce projet implémente un bot Discord en utilisant le site Decord. Suivez les étapes ci-dessous pour commencer.
+Ce projet implémente un bot Discord en utilisant le site Discord. Suivez les étapes ci-dessous pour commencer.
 
 ### Étapes d'installation
 
 1. **Créer un compte Discord sur le site Decord:**
-   - Allez sur [Decord](https://descord.com) et créez un compte si vous n'en avez pas déjà un.
+   - Allez sur [Discord](https://discord.com) et créez un compte si vous n'en avez pas déjà un.
 
 2. **Cloner le projet et Installer l'environnement virtuel:**
      - Ouvrez votre terminal et exécutez la commande suivante :
@@ -40,6 +40,18 @@ Ce projet implémente un bot Discord en utilisant le site Decord. Suivez les ét
      ```
      Assurez-vous d'avoir un fichier `requirements.txt` contenant les dépendances nécessaires.
 
+### Création 
+  
+
+Pour une démonstration visuelle de la création d'un bot Discord, vous pouvez suivre cette vidéo :
+
+<video width="400" height="400" controls>
+    <source src="/Users/clementkm/Downloads/ips-61620253-F219-4001-A847-525764630FE1.mp4" type="video/mp4">
+    Votre navigateur ne prend pas en charge la balise vidéo.
+</video>
+
+Assurez-vous de consulter la vidéo pour des instructions détaillées sur le processus de création du bot Discord.
+
 ### Configuration du Bot
 
 1. **Token Discord:**
@@ -48,6 +60,9 @@ Ce projet implémente un bot Discord en utilisant le site Decord. Suivez les ét
      ```env
      DISCORD_TOKEN=VotreTokenDiscord
      ```
+   - Assurez-vous de ne pas partager votre fichier .env publiquement pour éviter la divulgation de vos informations sensibles.Pour plus de détails sur l'utilisation de python-dotenv, consultez la [documentation officielle] (https://pypi.org/project/python-dotenv/) .
+
+
 
 2. **Configurer d'autres paramètres:**
    - Consultez la documentation de Decord et ajustez les paramètres du bot selon vos besoins.
@@ -56,4 +71,4 @@ Ce projet implémente un bot Discord en utilisant le site Decord. Suivez les ét
 
 - Exécutez le bot en utilisant la commande :
   ```bash
-  python bot.py
+  python bot.py run ```
