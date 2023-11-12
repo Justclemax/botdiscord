@@ -68,4 +68,4 @@ Assurez-vous de consulter la vidéo pour des instructions détaillées sur le pr
 
 - Exécutez le bot en utilisant la commande :
   ```bash
-  python bot.py run
+  python main.py run
