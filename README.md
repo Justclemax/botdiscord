@@ -1,29 +1,26 @@
 # Botdiscord
+
 ## À propos de ce projet
 
-Ce projet implémente un bot Discord en utilisant le site Discord. Suivez les étapes ci-dessous pour commencer.
+Ce projet implémente un bot Discord en utilisant la bibliothèque discord.py. Suivez les étapes ci-dessous pour commencer.
 
 ### Étapes d'installation
 
-1. **Créer un compte Discord sur le site Decord:**
+1. **Créer un compte Discord sur le site Discord :**
    - Allez sur [Discord](https://discord.com) et créez un compte si vous n'en avez pas déjà un.
 
-2. **Cloner le projet et Installer l'environnement virtuel:**
-     - Ouvrez votre terminal et exécutez la commande suivante :
-     ``` bash
+2. **Cloner le projet et Installer l'environnement virtuel :**
+   - Ouvrez votre terminal et exécutez les commandes suivantes :
+     ```bash
      git clone https://github.com/Justclemax/botdiscord.git
+     cd botdiscord
      ```
-      ``` bash
-        cd botdiscord 
-     ```
-    
-   - Ouvrez votre terminal et exécutez la commande suivante pour créer un environnement virtuel nommé "env":
-
+   - Ensuite, créez un environnement virtuel nommé "env" en exécutant la commande suivante :
      ```bash
      python -m venv env
      ```
 
-3. **Activer l'environnement virtuel:**
+3. **Activer l'environnement virtuel :**
    - Sur Windows, exécutez la commande :
      ```bash
      .\env\Scripts\activate
@@ -33,15 +30,14 @@ Ce projet implémente un bot Discord en utilisant le site Discord. Suivez les é
      source env/bin/activate
      ```
 
-4. **Installer les dépendances:**
+4. **Installer les dépendances :**
    - Avec l'environnement virtuel activé, installez les packages nécessaires à l'aide de la commande suivante :
      ```bash
      pip install -r requirements.txt
      ```
      Assurez-vous d'avoir un fichier `requirements.txt` contenant les dépendances nécessaires.
 
-### Création 
-  
+### Création
 
 Pour une démonstration visuelle de la création d'un bot Discord, vous pouvez suivre cette vidéo :
 
@@ -54,21 +50,19 @@ Assurez-vous de consulter la vidéo pour des instructions détaillées sur le pr
 
 ### Configuration du Bot
 
-1. **Token Discord:**
+1. **Token Discord :**
    - Obtenez votre token Discord depuis [le portail des développeurs Discord](https://discord.com/developers/applications).
    - Créez un fichier `.env` à la racine du projet et ajoutez votre token :
      ```env
      DISCORD_TOKEN=VotreTokenDiscord
      ```
-   - Assurez-vous de ne pas partager votre fichier .env publiquement pour éviter la divulgation de vos informations sensibles.Pour plus de détails sur l'utilisation de python-dotenv, consultez la [documentation officielle] (https://pypi.org/project/python-dotenv/) .
+   - Assurez-vous de ne pas partager votre fichier .env publiquement pour éviter la divulgation de vos informations sensibles. Pour plus de détails sur l'utilisation de python-dotenv, consultez la [documentation officielle](https://pypi.org/project/python-dotenv/).
 
-
-
-2. **Configurer d'autres paramètres:**
-   - Consultez la documentation de Decord et ajustez les paramètres du bot selon vos besoins.
+2. **Configurer d'autres paramètres :**
+   - Consultez la documentation de discord.py et ajustez les paramètres du bot selon vos besoins. Pour plus d'informations, consultez la [documentation de discord.py](https://discordpy.readthedocs.io/en/stable/).
 
 ### Exécuter le Bot
 
 - Exécutez le bot en utilisant la commande :
   ```bash
-  python bot.py run ```
+  python bot.py run
