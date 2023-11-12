@@ -43,7 +43,7 @@ Ce projet implémente un bot Discord en utilisant la bibliothèque discord.py. S
 Pour une démonstration visuelle de la création d'un bot Discord, vous pouvez suivre cette vidéo :
 
 <video width="400" height="400" controls
-    src"https://github.com/Justclemax/botdiscord/assets/90102062/9ff778df-fd03-4a72-aa03-410021fb1958"> 
+    src="https://github.com/Justclemax/botdiscord/assets/90102062/9ff778df-fd03-4a72-aa03-410021fb1958"> 
     Votre navigateur ne prend pas en charge la balise vidéo.
 </video>
 
